@@ -5,6 +5,141 @@
   <title>CyberAgentService</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/caportal.css">
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+
+    $(function(){
+      /* ここから */
+      $('.main_menu').on({
+        'mouseenter':function(){
+            $('#sub_menu').fadeIn(200);
+        }
+      });
+      $('.nav_inner').on({
+        'mouseleave':function(){
+          $('#sub_menu').fadeOut(200);
+        }
+      });
+
+
+      /* ここまで */
+      /* ここから */
+      $('.new_hover1').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここまで */
+      /* ここから */
+      $('.new_hover2').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover3').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover4').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover5').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover6').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover7').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover8').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover9').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover10').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover11').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+      /* ここから */
+      $('.new_hover12').on({
+        'mouseenter':function(){
+            $(this).find('span').fadeIn(200);
+        },
+        'mouseleave':function(){
+          $(this).find('span').fadeOut(200);
+        }
+      });
+
+
+
+
+    });
+
+  </script>
+
 </head>
 <body>
 <!-- 全体始まり -->
@@ -20,7 +155,14 @@
 
       <div class="nav_inner">
       <nav>
-
+        <div class="menu_search">
+          <div class="main_menu">
+            <img src="caportal-assets/menu.png" alt="" />
+          </div>
+          <div class="search">
+            <img src="caportal-assets/search.png" alt="" />
+          </div>
+        </div>
 
         <div id="sub_menu">
           <div id="service_all"><img src="caportal-assets/service_all.png" alt="サービス一覧"></div>
@@ -64,7 +206,9 @@
                   <dd class="nav_contents"><a href="">ピグブレイブ</a></dd>
               </dl>
             </li>
+
           </ul>
+
 
         </div>
 
@@ -83,9 +227,7 @@
       <img src="caportal-assets/5_box.png" alt=""/>
     </div>
 
-    <div class="pickup_service_title">
-      <p class="pickp_text">AbemaTV</p>
-      <img src="caportal-assets/bt_music.png" alt="" class="bt_music"/>
+    <div class="pickup_service_title"><img src="caportal-assets/amebatv_title.png" alt="" />
     </div>
     <div class="pickup_subtext">
       <p class="text">
@@ -101,20 +243,19 @@
     <div class="popular_wrap">
       <ul class="six_cards">
         <li class="popular_box">
-          <img src="caportal-assets/755.png" alt="" /><h3 class="popular_service_title"><p>755</p>
-          <div class="line"></div></h3>
+          <img src="caportal-assets/755.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/755_text.png" alt="" /></h3>
           <img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" />
         </li>
 
-        <li class="popular_box"><img src="caportal-assets/ameblo.png" alt="" /><h3 class="popular_service_title"><p>アメーバブログ</p><div class="line"></div></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
+        <li class="popular_box"><img src="caportal-assets/ameblo.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/ameblo_text.png" alt="" /></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
 
-        <li class="popular_box"><img src="caportal-assets/spotlight.png" alt="" /><h3 class="popular_service_title"><p>Spotlight</p><div class="line"></div></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
+        <li class="popular_box"><img src="caportal-assets/spotlight.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/soitlight_text.png" alt="" /></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
 
-        <li class="popular_box"><img src="caportal-assets/yume100.png" alt="" /><h3 class="popular_service_title"><p>夢王国と眠れる<br>100人の王子様</p><div class="line"></div></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
+        <li class="popular_box"><img src="caportal-assets/yume100.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/yume100_text.png" alt="" /></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
 
-        <li class="popular_box"><img src="caportal-assets/guraburu.png" alt="" /><h3 class="popular_service_title"><p>グランブルー<br>ファンタジー</p><div class="line"></div></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
+        <li class="popular_box"><img src="caportal-assets/guraburu.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/guraburu_text.png" alt="" /></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
 
-        <li class="popular_box"><img src="caportal-assets/gurimoa.png" alt="" /><h3 class="popular_service_title"><p>        グリモア</p><div class="line"></div></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
+        <li class="popular_box"><img src="caportal-assets/gurimoa.png" alt="" /><h3 class="popular_service_title"><img src="caportal-assets/gurimoa_text.png" alt="" /></h3><img src="caportal-assets/bt_viewmore.png" alt="" class="popular_viewmore" /></li>
       </ul>
     </div>
   </div>
@@ -125,17 +266,18 @@
     <div class="new_wrap">
       <ul class="new_box">
         <li class="new_hover1"><img src="caportal-assets/new_1.png" alt="" /><span><img src="caportal-assets/hover_1.png" alt="" /></span></li>
-        <li class="new_hover2"><img src="caportal-assets/new_2.png" alt="" /></li>
-        <li class="new_hover3"><img src="caportal-assets/new_3.png" alt="" /></li>
-        <li class="new_hover4"><img src="caportal-assets/new_3_.png" alt="" /></li>
-        <li class="new_hover5"><img src="caportal-assets/new_4.png" alt="" /></li>
-        <li class="new_hover6"><img src="caportal-assets/new_5.png" alt="" /></li>
-        <li class="new_hover7"><img src="caportal-assets/new_6.png" alt="" /></li>
-        <li class="new_hover8"><img src="caportal-assets/new_6_.png" alt="" /></li>
-        <li class="new_hover9"><img src="caportal-assets/new_7.png" alt="" /></li>
-        <li class="new_hover10"><img src="caportal-assets/new_8.png" alt="" /></li>
-        <li class="new_hover11"><img src="caportal-assets/new_9.png" alt="" /></li>
-        <li class="new_hover12"><img src="caportal-assets/new_9_.png" alt="" /></li>
+        <li class="new_hover2"><img src="caportal-assets/new_2.png" alt="" /><span><img src="caportal-assets/hover_2.png" alt="" /></span></li>
+        <li class="new_hover3"><img src="caportal-assets/new_3.png" alt="" /><span><img src="caportal-assets/hover_3.png" alt="" /></span></li>
+        <li class="new_hover4"><img src="caportal-assets/new_3_.png" alt="" /><span><img src="caportal-assets/hover_4.png" alt="" /></span></li>
+        <li class="new_hover5"><img src="caportal-assets/new_4.png" alt="" /><span><img src="caportal-assets/hover_5.png" alt="" /></span></li>
+        <li class="new_hover6"><img src="caportal-assets/new_5.png" alt="" /><span><img src="caportal-assets/hover_6.png" alt="" /></span></li>
+        <li class="new_hover7"><img src="caportal-assets/new_6.png" alt="" />
+      <span><img src="caportal-assets/hover_7.png" alt="" /></span></li>
+        <li class="new_hover8"><img src="caportal-assets/new_6_.png" alt="" /><span><img src="caportal-assets/hover_8.png" alt="" /></span></li>
+        <li class="new_hover9"><img src="caportal-assets/new_7.png" alt="" /><span><img src="caportal-assets/hover_9.png" alt="" /></span></li>
+        <li class="new_hover10"><img src="caportal-assets/new_8.png" alt="" /><span><img src="caportal-assets/hover_10.png" alt="" /></span></li>
+        <li class="new_hover11"><img src="caportal-assets/new_9.png" alt="" /><span><img src="caportal-assets/hover_11.png" alt="" /></span></li>
+        <li class="new_hover12"><img src="caportal-assets/new_9_.png" alt="" /><span><img src="caportal-assets/hover_12.png" alt="" /></span></li>
       </ul>
 
     </div>
@@ -154,25 +296,23 @@
   </div>
 
   <footer>
-    <div>
-    <div class="logo_sns">
-
-      <img src="caportal-assets/logo_white.png" alt="" class="logo_white"/>
+      <div class="logo_white">
+        <img src="caportal-assets/logo_white.png" alt="" />
+      </div>
       <div class="sns">
         <img src="caportal-assets/twitter.png" alt="" class="twitter"/>
         <img src="caportal-assets/facebook.png" alt="" />
       </div>
-    </div>
-    </div>
-
-    <ul>
-      <li><a href="#"></a>サイトマップ</li>
-      <li><a href="#"></a>プライバシーポリシー</li>
-      <li><a href="#"></a>ディスクロージャー</li>
-      <li><a href="#"></a>ポリシーサイトご利用方法</li>
-      <li><a href="#"></a>免責事項おすすめルート</li>
-
+    <ul class="footer_text">
+      <li><a href="#">サイトマップ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">ディスクロージャー</a></li>
+      <li><a href="#">ポリシーサイトご利用方法</a></li>
+      <li><a href="#">免責事項おすすめルート</a></li>
     </ul>
+    <p class="copy">
+      Copyright © CyberAgent, Inc. All Rights Reserved.
+    </p>
   </footer>
 
 
@@ -182,51 +322,6 @@
 <!-- 全体終わり -->
 
 
-<script   src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-<script>
-
-  $(function(){
-    /* ここから */
-    $('.new_hover1').on({
-      'mouseenter':function(){
-          $(this).find('span').fadeIn(200);
-      },
-      'mouseleave':function(){
-        $(this).find('span').fadeOut(200);
-      }
-    });
-    /* ここまで */
-    /* ここから */
-    $('.new_hover1').on({
-      'mouseenter':function(){
-          $(this).find('span').fadeIn(200);
-      },
-      'mouseleave':function(){
-        $(this).find('span').fadeOut(200);
-      }
-    });
-    /* ここから */
-    $('.new_hover1').on({
-      'mouseenter':function(){
-          $(this).find('span').fadeIn(200);
-      },
-      'mouseleave':function(){
-        $(this).find('span').fadeOut(200);
-      }
-    });
-    /* ここから */
-    $('.new_hover1').on({
-      'mouseenter':function(){
-          $(this).find('span').fadeIn(200);
-      },
-      'mouseleave':function(){
-        $(this).find('span').fadeOut(200);
-      }
-    });
-
-  });
-
-</script>
 
 
 </body>

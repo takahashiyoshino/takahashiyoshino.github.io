@@ -41,9 +41,10 @@ h1{
 
 .menu_search{
   display: flex;
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 0px;
+  z-index: 40;
 
 }
 /*#menu{
@@ -69,7 +70,7 @@ h1{
 }
 
 nav{
-  background: 342px 0px url(../caportal-assets/menu_search.png)no-repeat;
+  /*background: 342px 0px url(../caportal-assets/menu_search.png)no-repeat;*/
   width: 563px;
   height: 683px;
   position: absolute;
@@ -92,6 +93,9 @@ nav{
   width: 342px;
   height: 683px;
   background-color: white;
+  display: none;
+  position: fixed;
+  z-index: 40;
 
 }
 
@@ -254,7 +258,6 @@ dl{
   position: absolute;
   width: 311px;
   height: 51px;
-  background-color: white;
   z-index: 10;
   display: flex;
   margin-top: 188px;
@@ -343,7 +346,8 @@ dl{
 .popular_service_title{
   position: absolute;
   top: 150px;
-  left: 22px;
+  left: 14px;
+  opacity: 0.96;
 }
 
 h3 p{
@@ -421,16 +425,154 @@ h3 .line {
 .new_hover2 {
   cursor: pointer;
 }
-.new_hover1 span{
+.new_hover2 span{
   width: 321px;
   height: 238px;
   position: absolute;
   top: -13px;
   left: 50%;
+  margin-left: -288px;
+  z-index: 30;
+  display: none;
+}
+.new_hover3 {
+  cursor: pointer;
+}
+.new_hover3 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  margin-left: -33px;
+  z-index: 30;
+  display: none;
+}
+.new_hover4 {
+  cursor: pointer;
+}
+.new_hover4 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  margin-left: 212px;
+  z-index: 30;
+  display: none;
+}
+.new_hover5 {
+  cursor: pointer;
+}
+.new_hover5 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
   margin-left: -535px;
   z-index: 30;
   display: none;
 }
+.new_hover6 {
+  cursor: pointer;
+}
+.new_hover6 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -288px;
+  z-index: 30;
+  display: none;
+}
+.new_hover7 {
+  cursor: pointer;
+}
+.new_hover7 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -33px;
+  z-index: 30;
+  display: none;
+}
+.new_hover8 {
+  cursor: pointer;
+}
+.new_hover8 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: 212px;
+  z-index: 30;
+  display: none;
+}
+.new_hover9 {
+  cursor: pointer;
+}
+.new_hover9 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  margin-left: -535px;
+  z-index: 30;
+  display: none;
+}
+.new_hover10 {
+  cursor: pointer;
+}
+.new_hover10 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  margin-left: -288px;
+  z-index: 30;
+  display: none;
+}
+.new_hover11 {
+  cursor: pointer;
+}
+.new_hover11 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  margin-left: -33px;
+  z-index: 30;
+  display: none;
+}
+.new_hover12 {
+  cursor: pointer;
+}
+.new_hover12 span{
+  width: 321px;
+  height: 238px;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  margin-left: 212px;
+  z-index: 30;
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -461,41 +603,63 @@ h3 .line {
 
 /*info終わり*/
 
-
-
-}
-
 footer{
   height: 280px;
   background-color: #a8a8a8;
-  position: relative;
-}
 
-.logo_sns{
-  position: absolute;
-  margin: 0 auto;
 }
 
 .logo_white{
-  text-align: center;
-  position: absolute;
-  top: 48px;
+  width: 182px;
+  margin: 0 auto;
+  padding-top: 48px;
+
 }
 
 .sns{
-  position: absolute;
   width: 103px;
   height: 45px;
-  top: 105px;
+  margin: 0 auto;
   display: flex;
-
-
+  padding: 22px;
 }
 
 .twitter{
   padding-right: 16px;
+}
+
+.footer_text{
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  margin: 0 auto;
+  width: 710px;
+
+
+
 
 }
+.footer_text li{
+  border-right: 1px #ffffff solid;
+  margin-right: 14px;
+  padding-right: 14px;
+
+}
+
+.footer_text li:last-child{
+  border-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+.copy{
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+
 
 
 
