@@ -366,7 +366,7 @@ h3 .line {
 
 .popular_viewmore{
   position: absolute;
-  bottom: 30px;
+  bottom: 24px;
   right: 20px;
 
 }
@@ -602,6 +602,14 @@ h3 .line {
 }
 
 /*info終わり*/
+/*詳細*/
+.syousai_all{
+  display: block;
+  
+}
+
+
+/*詳細終わり*/
 
 footer{
   height: 280px;
@@ -628,17 +636,18 @@ footer{
   padding-right: 16px;
 }
 
-.footer_text{
-  color: #ffffff;
+.footer_text {
   font-size: 12px;
   display: flex;
   margin: 0 auto;
   width: 710px;
 
-
-
-
 }
+.footer_text a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .footer_text li{
   border-right: 1px #ffffff solid;
   margin-right: 14px;
@@ -656,7 +665,6 @@ footer{
   font-size: 11px;
   text-align: center;
   margin-top: 30px;
-
 }
 
 
