@@ -1,0 +1,144 @@
+/*共通指定common-----------*/
+
+/*1.全体のフォントサイズ*/
+
+body{
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: 游ゴシック,Yu Gothic, "Hiragino Kaku Gothic ProN" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.7;
+
+}
+
+
+/*2.リンクの指定*/
+a{
+
+}
+a:hover{
+  opacity: 0.5;
+}
+
+
+/*3.全体のレイアウト*/
+.wrapper{
+  width: 1280px;
+  margin: 40px auto 0;
+
+}
+
+/*header--------*/
+
+.mainvisual_box{
+  width: 1096px;
+  height: 510px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo{
+  z-index: 10;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  left: 16px;
+}
+.form{
+  width: 682px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+
+/*nav----------*/
+#gnav{
+  width: 1034px;
+  margin: auto;
+  margin-top: 20px;
+}
+#gnav ul{
+  display: flex;
+  margin-bottom: 48px;
+}
+#gnav li{
+  width: 173px;
+  text-align: center;
+  border-bottom: 3px #FFF solid;
+  padding-bottom: 17px;
+}
+#gnav li:hover{
+  /*border-bottom: 3px #d6cb72 solid;*/
+  border-color: #d6cb72;
+  /*padding-bottom: 17px;*/
+  background-image: url();
+}
+
+#story{
+  position: relative;
+  height: 410px;
+}
+.storyimg{
+  text-align: center;
+  position: absolute;
+}
+
+.story_title{
+  text-align: center;
+  position: absolute;
+  right: 234px;
+  top: 100px;
+}
+
+.title_text{
+  padding-bottom: 16px;
+}
+.title_ja{
+  font-family:  "游明朝体", "Yu Mincho", YuMincho, serif;
+  padding-bottom: 20px;
+}
+
+.wave{
+  width: 95px;
+}
+
+.text_main{
+  width: 350px;
+  text-align: center;
+  position: absolute;
+  right: 136px;
+  top: 210px;
+}
+
+#plan{
+  height: 670px;
+}
+
+.plan_title{
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.pool{
+  width: 280px;
+  background-color: #f1f1f1;
+  padding: 64 17 25 17px;
+
+
+
+}
+
+.3card_img{
+  width: 243px;
+  text-align: center;
+}
+
+/*contents--------*/

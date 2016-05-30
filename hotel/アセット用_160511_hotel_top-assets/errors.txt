@@ -1,0 +1,1 @@
+[Wed May 11 2016 16:44:58 GMT+0900 (JST)] layer "breakfast.png": Duplicate path: breakfast.png
